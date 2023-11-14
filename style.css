@@ -26,12 +26,12 @@ body {
     width:10%;
     cursor: pointer;
 }
+
 .container {
     display: flex;
     max-width: 1440px;
-    width: 100%;
     justify-content: center;
-    margin: 50px auto;
+    margin-top: 50px;
 }
 
 .informacoes {
@@ -229,7 +229,7 @@ footer a {
     
 }
 
-@media(min-width: 1400px) {
+@media(min-width: 1200px) {
     .container {
         gap: 30px;
     }
